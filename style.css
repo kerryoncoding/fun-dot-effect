@@ -1,0 +1,39 @@
+body {
+    background-color: #8FCFFF;
+    margin: 0;
+    font-family: 'Roberto', sans-serif;
+    overflow-x: hidden;
+    width: calc(100vw - var(--scrollbar));
+    height: 100vh;
+}
+
+
+/* HOMEPAGE MAIN TEXT */
+
+.homecentered {
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* HOMEPAGE DOTS */
+
+.placeholder {
+    background-color: #8FCFFF;
+    width: 100vw;
+    height: 1px;
+}
+
+.fade {
+    opacity: 0;
+    border-radius: 10px;
+    z-index: -10;
+}
+
+.dots {
+    width: 100vw;
+}
