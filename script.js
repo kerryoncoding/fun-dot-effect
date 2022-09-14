@@ -6,5 +6,5 @@ function normal(n) {
 
 function dark(n) {
     n.style.opacity= "0";
-  n.style.transition = "opacity 1s";
+  n.style.transition= "opacity 1s";
 }
