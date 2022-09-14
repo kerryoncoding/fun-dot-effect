@@ -1,5 +1,5 @@
 body {
-    background-color: #8FCFFF;
+    background-color: #000000;
     margin: 0;
     font-family: 'Roberto', sans-serif;
     overflow-x: hidden;
@@ -12,7 +12,7 @@ body {
 
 .homecentered {
     position: absolute;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-size: 25px;
     top: 50%;
@@ -36,4 +36,14 @@ body {
 
 .dots {
     width: 100vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .dots1 {
+        display: none;
+    }
+
+    .dots2 {
+        display: none;
+    }
 }
